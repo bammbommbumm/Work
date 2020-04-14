@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta http-equiv="Content-tupe" content="text/html"; charset="utf-8">
+		<title>First Form</title>
+	</head>
+	<body>
+		<form action="#" method="get">		
+		<div>
+			<p>Ім'я</p>
+			<div>
+				<input placeholder="Ім'я" tabindex="1" type="text" name="username">
+			</div>			
+		</div>
+		<br>
+		<div>
+			<p>Пароль</p>
+			<div>
+				<input tabindex="2" type="password" name="passuser">
+			</div>
+		</div>
+		<br>
+		<div>
+			<p>Телефон</p>
+			<div>
+				<input tabindex="3" type="tel" name="teluser">
+			</div>			
+		</div>
+		<br>
+		<div>
+			<p>Стать</p>
+			<div>
+				<p><input tabindex="4" checked type="radio" name="gender" value="male">Чоловік</p>
+			</div>
+			<div>
+				<p><input tabindex="4" type="radio" name="gender" value="female">Жінка</p>
+			</div>			
+		</div>
+		<br>
+		<div>
+			<p>Власність</p>
+			<div>
+				<p><input tabindex="5" checked type="checkbox" name="bicycle" value="yes">Ровер</p>
+			</div>
+			<div>
+				<p><input tabindex="6" type="checkbox" name="car" value="yes">Машина</p>
+			</div>
+			<div>
+				<p><input tabindex="7" disabled type="checkbox" name="boat" value="yes">Яхта</p>
+			</div>
+		</div>
+		<br>
+		<div>
+			<p>Додаткова інформація</p>
+			<div>
+				<textarea tabindex="8" name="text"></textarea>
+			</div>
+		</div>
+		<br>
+		<div>
+			<p>Додати фото</p>
+			<div>
+				<input tabindex="9" type="file" name="foto">
+			</div>
+		</div>
+		<br>
+		<div>
+			<p>Улюблений колір</p>
+			<div>
+				<select tabindex="10" name="color">
+				<option value="red">Червоний</option>
+				<option selected value="yellow">Жовтий</option>
+				<option value="green">Зелений</option>
+				</select>
+			</div>			
+		</div>
+		<br>
+		<div>
+			<div>
+				<button tabindex="11" type="submit">Відправити</button>			
+				<button tabindex="12" type="reset">Очистити</button>
+			</div>
+		</div>
+	</form>
+	</body>
+</html>
