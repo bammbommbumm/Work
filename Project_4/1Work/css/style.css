@@ -104,20 +104,14 @@ body {
   letter-spacing: 2.8px;
 }
 
-.foto1,
-.foto {
-}
 .foto1 {
-  margin: 10px;
-}
-.foto {
-  background-size: cover;
-  margin: 0 0 110px 290px;
-  height: 560px;
-  width: 840px;
+  border: 10px solid #fff;
   box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
 }
-
+.foto {
+  margin: 105px 110px 530px 140px;
+  background: url(../img/Ellipse_1_copy.png) 0 0 / 1200px 1060px no-repeat;
+}
 .textcentr {
   opacity: 0.8;
   color: #273d46;
